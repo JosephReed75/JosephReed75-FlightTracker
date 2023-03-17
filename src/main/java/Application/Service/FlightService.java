@@ -75,8 +75,8 @@ public class FlightService {
         if(flightDAO.getFlightById(flight_id) == null){
             return null;
         }
-        Flight updatedFlight = flightDAO.getFlightById(flight_id);
-        return updatedFlight;
+        return flightDAO.getFlightById(flight_id);
+        
         
     }
 
